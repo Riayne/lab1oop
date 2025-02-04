@@ -30,8 +30,7 @@ int main(){
     obj.setname("Teo");
 
 
-    cout << "Name: " << obj.getname() << endl;
-    cout << "Age: " << obj.getage() << endl;
+    cout << "My Name is " << obj.getname() <<" and I am "<<obj.getage()<<" years old." endl;
 
     return 0;
 }
