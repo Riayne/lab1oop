@@ -14,13 +14,13 @@ public:
 	}
 };
 class Car {
-	Engine engine;
+	Engine eng;
 public:
 	void startcar() {
-		engine.start();
+		eng.start();
 	}
 	void stopcar() {
-		engine.stop();
+		eng.stop();
 	}
 };
 int main() {
